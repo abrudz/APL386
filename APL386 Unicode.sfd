@@ -4,7 +4,7 @@ FullName: APL386 Unicode
 FamilyName: APL386 Unicode
 Weight: Book
 Copyright: Public Domain
-Version: April-20 2013
+Version: June-11 0202
 ItalicAngle: 0
 UnderlinePosition: -246
 UnderlineWidth: 85
@@ -22,7 +22,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1366486900
-ModificationTime: 1591879464
+ModificationTime: 1591907213
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -743,7 +743,7 @@ ShortTable: cvt  5
   670
   686
 EndShort
-LangName: 1033 "" "" "Regular" "" "" "April-20 2013" "" "none" "" "Ad+AOEA-m, dzaima"
+LangName: 1033 "" "" "Regular" "" "" "April-20 2013" "" "none" "" "Adrian Smith, Ad+AOEA-m, dzaima"
 GaspTable: 3 8 2 16 1 65535 3 0
 Encoding: UnicodeFull
 Compacted: 1
@@ -752,7 +752,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 576 32 11
+WinInfo: 608 32 11
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629145 314572 209715 498074 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -8166,29 +8166,68 @@ EndSplineSet
 Validated: 9
 EndChar
 
-StartChar: ch27
+StartChar: not
 Encoding: 172 172 111
 Width: 600
 GlyphClass: 2
 Flags: W
+HStem: 275 79<104.52 427>
+VStem: 427 79<111.345 274.21>
+TtInstrs:
+SVTCA[y-axis]
+PUSHB_1
+ 0
+MDAP[rnd]
+PUSHB_1
+ 6
+MDRP[min,rnd,black]
+SVTCA[x-axis]
+PUSHB_1
+ 23
+MDAP[rnd]
+PUSHB_1
+ 21
+MDRP[rp0,rnd,white]
+PUSHB_1
+ 15
+MDRP[min,rnd,black]
+PUSHB_3
+ 21
+ 15
+ 10
+CALL
+PUSHB_4
+ 0
+ 21
+ 2
+ 9
+CALL
+PUSHB_2
+ 24
+ 1
+CALL
+SVTCA[y-axis]
+IUP[y]
+IUP[x]
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
-68 275 m 2,0,1
- 33 275 33 275 33 315 c 0,2,3
- 33 327 33 327 43 341 c 0,4,5
- 52 354 52 354 68 354 c 2,6,-1
- 472 354 l 2,7,8
- 479 354 479 354 497 351 c 0,9,10
- 510 351 510 351 525 342 c 128,-1,11
- 540 333 540 333 550 316 c 0,12,13
- 559 301 559 301 559 267 c 2,14,-1
- 559 138 l 2,15,16
- 559 122 559 122 548 111 c 0,17,18
- 535 101 535 101 522 101 c 0,19,20
- 480 100 480 100 480 138 c 2,21,-1
- 480 275 l 1,22,-1
- 68 275 l 2,0,1
+135 275 m 2,0,1
+ 100 275 100 275 100 315 c 0,2,3
+ 100 327 100 327 110 341 c 0,4,5
+ 119 354 119 354 135 354 c 2,6,-1
+ 419 354 l 2,7,8
+ 426 354 426 354 444 351 c 0,9,10
+ 457 351 457 351 472 342 c 128,-1,11
+ 487 333 487 333 497 316 c 0,12,13
+ 506 301 506 301 506 267 c 2,14,-1
+ 506 138 l 2,15,16
+ 506 122 506 122 495 111 c 0,17,18
+ 482 101 482 101 469 101 c 0,19,20
+ 427 100 427 100 427 138 c 2,21,-1
+ 427 275 l 1,22,-1
+ 135 275 l 2,0,1
 EndSplineSet
 EndChar
 
@@ -8197,6 +8236,30 @@ Encoding: 173 173 112
 Width: 600
 GlyphClass: 2
 Flags: W
+HStem: 275 79<107.252 496.705>
+TtInstrs:
+SVTCA[y-axis]
+PUSHB_1
+ 3
+MDAP[rnd]
+PUSHB_1
+ 9
+MDRP[min,rnd,black]
+PUSHB_1
+ 9
+MDRP[min,rnd,black]
+SVTCA[x-axis]
+PUSHB_1
+ 14
+MDAP[rnd]
+PUSHB_2
+ 15
+ 1
+CALL
+SVTCA[y-axis]
+IUP[y]
+IUP[x]
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -8678,7 +8741,6 @@ SplineSet
  361.525390625 753.385742188 l 2,12,13
  391.794921875 782.500976562 391.794921875 782.500976562 421.604492188 751.510742188 c 0,0,1
 EndSplineSet
-Validated: 3105
 EndChar
 
 StartChar: glyph127
@@ -46819,11 +46881,10 @@ SplineSet
  494 68 494 68 454 68 c 2,23,-1
  160 68 l 2,24,25
  116 68 116 68 116 27 c 256,26,27
- 116 -14 116 -14 155 -15 c 2,28,-1
+ 116 -17 116 -17 154 -17 c 6,28,-1
  457 -17 l 2,29,30
  494 -17 494 -17 494 24 c 0,21,22
 EndSplineSet
-Validated: 9
 EndChar
 
 StartChar: Enclose
@@ -56919,7 +56980,6 @@ EndChar
 StartChar: ldDblVert
 Encoding: 9553 9553 826
 Width: 600
-GlyphClass: 2
 Flags: W
 TtInstrs:
 NPUSHB
@@ -56964,7 +57024,6 @@ SplineSet
  415 910 l 1,7,-1
  328 910 l 1,4,-1
 EndSplineSet
-Validated: 9
 EndChar
 
 StartChar: FL2554h
@@ -64329,7 +64388,7 @@ SplineSet
  209 -124 l 2,9,10
  165 -124 165 -124 165 -80 c 2,11,-1
  165 710 l 2,12,13
- 165 754 165 754 209 754 c 2,14,-1
+ 165 754 165 754 209 754 c 6,14,-1
  419 754 l 2,15,0
  438 754 438 754 438 732 c 128,-1,1
 291 -80 m 1,16,-1
