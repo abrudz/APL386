@@ -27,7 +27,6 @@
         -webkit-hyphens: auto;
         -ms-hyphens: auto;
         hyphens: auto;
-        text-align: justify;
         font-size: 125%;
       }
       sup {
@@ -52,7 +51,7 @@
     <p>And many additional mathematical and typographical symbols:</p>
     <blockquote>¦‖∫¬°±∓µ·∵¼½¾↔↕∉≉≣⊖⊛⊻⊼⊽⋔⌈⌉⌊⌋<br>`´¡¿‼‽¢£¤¥ © ® ºª«»‘’‚‛“”„‟§¶♀♂♔♕♖♗♘♙♚♛♜♝♞♟♠♡♢♣♤♥♦♧</blockquote>
     <p>Single and double line drawing characters, and blocks and shades:</p>
-    <blockquote>┌─┬┐ ╔═╦╗ ▁▂▃▄▅▆▇█<br>
+    <blockquote style="line-height: 1;">┌─┬┐ ╔═╦╗ ▁▂▃▄▅▆▇█<br>
                │ ││ ║ ║║ █▉▊▋▌▍▎▏<br>
                ├─┼┤ ╠═╬╣ ▌▀▄▐<br>
                └─┴┘ ╚═╩╝ ░▒▓</blockquote>
@@ -65,10 +64,10 @@
     <p>And Cyrillic:</p>
     <blockquote>ЀЁЂЃЄЅІЇЈЌЍЎЏАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюяѐёѓєѕіїјў</blockquote>
     <p>Sample APL code:</p>
-    <blockquote><pre>
+    <blockquote style="line-height: 1;"><pre>
 w←⊃(⊃0⍴⍵){                           ⍝┌┌─2─┐       monadic; use ↓
     (e a)←|⍺                         ⍝├ 0 0 1 1 1  dyadic; use /
-    T←⌽⍣(0>⊃⌽⍺)                      ⍝└──→⍺⍺←─────┐
+    T←⌽⍣(0&gt;⊃⌽⍺)                      ⍝└──→⍺⍺←─────┐
     Pad←⍵⍵⍉(T⊣)⍪⍵⍪(T⊢)               ⍝ ┌⍺┐  ⌺     │
     need←(1+e),1↓⍴⍵                  ⍝ ┌─────⍵⍵──┐┘
     a=0:(1↓need⍴0↑⍵)Pad(1↓need⍴0↑⊢⍵) ⍝  0 0│1 2 3 4 5│0 0  Zero
