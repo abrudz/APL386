@@ -3,60 +3,75 @@
     <meta charset="utf-8" /> 
     <title>APL386 - APL385 Evolved</title>
     <link rel="shortcut icon" href="favicon.ico"/>
-    <style>
-      @font-face {
-        font-family: 'APL386';
-        src: url('APL386.ttf');
-      }
-      * {
-        font-family: 'APL386';
-        font-weight: unset;
-      }
-      h1>span {
-        float: right;
-      }
-      h1>span>a {
-        text-decoration: none;
-        color: #ea4aaa;
-      }
-      body {
-        font-size: 125%;
-        line-height: 1.2;
-      }
-      blockquote {
-        -webkit-hyphens: auto;
-        -ms-hyphens: auto;
-        hyphens: auto;
-        font-size: 125%;
-      }
-      sup {
-        font-size: 50%;
-      }
-      textarea {
-        width: 100%;
-        resize: vertical;
-        min-height: 4em;
-        font-size: inherit;
-      }
-    </style>
+    <link rel="stylesheet" href="/index.css">
   </head>
   <body>
+    <input id="APL386" type="radio" name="f" value="APL386" checked=""><label for="APL386"> APL386</label>
+    <input id="APL385" type="radio" name="f" value="APL385"            ><label for="APL385"> APL385 (select to compare)</label>
     <h1>APL386 Unicode<sup> <a href="APL386.ttf">download</a></sup><span><sup><a href="https://github.com/abrudz/APL386">source</a> </sup><a href="https://github.com/sponsors/abrudz" title="Sponsor">♥</a></span></h1>
-    <p>APL font based on Adrian Smith's <a href="https://apl385.com/fonts/index.htm">APL385</a> font with a fun, whimsical look, inspired by Comic Sans Serif.</p>
+    <p>Evolution of Adrian Smith's <a href="https://apl385.com/fonts/index.htm">APL385</a> font with a fun, whimsical look, inspired by Comic Sans Serif.</p>
     <blockquote>
       <textarea autofocus placeholder="Try it yourself ― type here!" spellcheck="false"></textarea>
     </blockquote>
     <p>Supports every special character used by any APL implementation:</p>
-    <blockquote style="word-break: break-all;">+-×÷⌈⌊*⍟|!○~∨∧⍱⍲&lt;≤=≥>≠.@≡≢⍴,⍪⍳↑↓?⍒⍋⍉⌽⊖∅∊⊥⊤⍎⍕⌹⊂⊃∪∩⍷⌷∘→←⎕⍞/⌿\⍀¨⍣&amp;⍨⌶#⊆⍥⊣⊢⍠⍤⌸⌺⍸()[];⍝⋄:⍬{}∇#⍺⍵⍶⍹"ᐵᑈ√⍡⍁∙⌾⍢⍫$…&#x7f;∞⍛⍧%⊇⍮⍭⊙⍦π⍇⍈⍐⍗∂λχ</blockquote>
-    <p>And many additional mathematical and typographical symbols:</p>
-    <blockquote>¦‖∫¬°±∓µ·∵¼½¾↔↕∉≉≣⊖⊛⊻⊼⊽⋔⌈⌉⌊⌋<br>`´¡¿‼‽¢£¤¥ © ® ºª«»‘’‚‛“”„‟§¶♀♂♔♕♖♗♘♙♚♛♜♝♞♟♠♡♢♣♤♥♦♧</blockquote>
+<table>
+<tbody><tr><th>Class</th>
+<th>Glyphs
+</th></tr>
+<tr><td>alphas</td><td>⍺⍶</td></tr>
+<tr><td>arrows-down</td><td>↓⍗⍖</td></tr>
+<tr><td>arrows-left</td><td>←⍇⍅</td></tr>
+<tr><td>arrows-right</td><td>→⍈⍆</td></tr>
+<tr><td>arrows-up</td><td>↑⍐⍏</td></tr>
+<tr><td>asterisks</td><td>*⍣⍟⋆</td></tr>
+<tr><td>brackets</td><td>[]⌈⌊⌷</td></tr>
+<tr><td>circles</td><td>○⍥⍟⌽⍉⊖⍜⊙⌾∅</td></tr>
+<tr><td>colons</td><td>:⍠÷⌹</td></tr>
+<tr><td>commas</td><td>,⍪;⍮</td></tr>
+<tr><td>dashes</td><td>-+÷⌹⌿⍀⍪⍏⍖⊢⊣</td></tr>
+<tr><td>dels</td><td>∇⍒⍫⍢</td></tr>
+<tr><td>deltas</td><td>∆⍙⍋⍍</td></tr>
+<tr><td>diamonds</td><td>⋄⌺⍚</td></tr>
+<tr><td>diereses</td><td>¨⍨⍥⍤⍣⍢⍡⍩</td></tr>
+<tr><td>dots</td><td>.:,;?!⍰</td></tr>
+<tr><td>epsilons</td><td>∊⍷</td></tr>
+<tr><td>equals</td><td>=≠⌸⍯</td></tr>
+<tr><td>greeks</td><td>⍺⍶∆⍙∂∊⍷⍳⍸λπ⍴ϼχ</td></tr>
+<tr><td>iotas</td><td>⍳⍸</td></tr>
+<tr><td>jots</td><td>∘⍤⍛⍝⍎⍕¤⌾⟃⟄</td></tr>
+<tr><td>omegas</td><td>⍵⍹</td></tr>
+<tr><td>quads</td><td>⎕⌸⌹⌺⌻⌼⍁⍂⍃⍄⍇⍈⍌⍍⍐⍓⍯⍰</td></tr>
+<tr><td>shoes-down</td><td>∪⍦</td></tr>
+<tr><td>shoes-left</td><td>⊂⊆⍧⟃</td></tr>
+<tr><td>shoes-right</td><td>⊃⊇⟄</td></tr>
+<tr><td>shoes-up</td><td>∩⋔</td></tr>
+<tr><td>slashes</td><td>/⌿⍁%</td></tr>
+<tr><td>slashes-back</td><td>\⍀⍉⍂</td></tr>
+<tr><td>stiles</td><td>|⌽⍒⍋∥⍭⍦⍧$</td></tr>
+<tr><td>tacks-down</td><td>⌶⊤⍕⍑⍡</td></tr>
+<tr><td>tacks-up</td><td>⌶⊥⍎⍊</td></tr>
+<tr><td>tildes</td><td>~⍬⍭⍱⍲</td></tr>
+<tr><td>underscores</td><td>_⍙⍷⍛⍸⊆⊇⍊⍜⍶⍹⍮⍚⍘</td></tr>
+<tr><td>wedges-down</td><td>∨⍱⍌</td></tr>
+<tr><td>wedges-left</td><td>&lt;≤⍃ᑈ</td></tr>
+<tr><td>wedges-right</td><td>&gt;≥⍄⍩ᐵ</td></tr>
+<tr><td>wedges-up</td><td>∧⍲⍓</td></tr></tbody></table>
+    <p>And many additional mathematical, typographical, pictogram symbols:</p>
+    <blockquote>
+      ¦‖∫¬°±∓µ·∵¼½¾↔↕∉≉≣⊖⊕⊖⊗⊘⊝⊛⊻⊼⊽⋔⌈⌉⌊⌋<br>
+      `´¡¿‼‽¢£¤¥ © ® ºª«»‘’‚‛“”„‟§¶<br>
+      ♔♕♖♗♘♙♚♛♜♝♞♟♠♡♢♣♤♥♦♧♀♂
+    </blockquote>
     <p>Single and double line drawing characters, and blocks and shades:</p>
-    <blockquote style="line-height: 1;">┌─┬┐ ╔═╦╗ ▁▂▃▄▅▆▇█<br>
+    <blockquote style="line-height: 1.15;">┌─┬┐ ╔═╦╗ ▁▂▃▄▅▆▇█<br>
                │ ││ ║ ║║ █▉▊▋▌▍▎▏<br>
                ├─┼┤ ╠═╬╣ ▌▀▄▐<br>
                └─┴┘ ╚═╩╝ ░▒▓</blockquote>
-    <p>The full Unicode APL range, including both uppercase and lowercase underscored alphabets, and as-of-yet unused symbols:</p>
-    <blockquote>ⒶⒷⒸⒹⒺⒻⒼⒽⒾⒿⓀⓁⓂⓃⓄⓅⓆⓇⓈⓉⓊⓋⓌⓍⓎⓏ<br>ⓐⓑⓒⓓⓔⓕⓖⓗⓘⓙⓚⓛⓜⓝⓞⓟⓠⓡⓢⓣⓤⓥⓦⓧⓨⓩ<br>⌻⌼⍁⍂⍃⍄⍅⍆⍊⍌⍍⍏⍑⍓⍔⍖⍘⍚⍯⍰</blockquote>
+    <p>Includes both uppercase and lowercase underscored alphabets, plus superscript and subscript digits:</p>
+    <blockquote>
+      ⒶⒷⒸⒹⒺⒻⒼⒽⒾⒿⓀⓁⓂⓃⓄⓅⓆⓇⓈⓉⓊⓋⓌⓍⓎⓏ<br>
+      ⓐⓑⓒⓓⓔⓕⓖⓗⓘⓙⓚⓛⓜⓝⓞⓟⓠⓡⓢⓣⓤⓥⓦⓧⓨⓩ<br>
+      ⁰¹²³⁴⁵⁶⁷⁸⁹ ₀₁₂₃₄₅₆₇₈₉</blockquote>
     <p>Extensive set of accented Latin letters:</p>
     <blockquote style="word-break: break-all;">ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĆćĈĉĊċĖėĠġĢģĤĥĨĩİıĴĵĶķĹĺĻļŃńŅņŔŕŖŗŚśŜŝŨũŴŵŶŷŸŹźŻżƒǴǵǸǹǼǽǾǿȨȩȮȯ</blockquote>
     <p>Full support for Greek:</p>
@@ -64,7 +79,7 @@
     <p>And Cyrillic:</p>
     <blockquote>ЀЁЂЃЄЅІЇЈЌЍЎЏАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюяѐёѓєѕіїјў</blockquote>
     <p>Sample APL code:</p>
-    <blockquote style="line-height: 1;"><pre>
+    <blockquote style="line-height: 1;"><pre style="font-family: inherit;">
 w←⊃(⊃0⍴⍵){                           ⍝┌┌─2─┐       monadic; use ↓
     (e a)←|⍺                         ⍝├ 0 0 1 1 1  dyadic; use /
     T←⌽⍣(0&gt;⊃⌽⍺)                      ⍝└──→⍺⍺←─────┐

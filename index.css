@@ -1,0 +1,46 @@
+@font-face {font-family: 'APL386';src: url('APL386.ttf');}
+@font-face {font-family: 'APL385';src: url('APL385.ttf');}
+input,label{
+  position: fixed;
+  background: rgba(255,255,255,0.7)
+}
+* {
+  font-weight: unset;
+}
+#APL386{top:2ex;}label[for="APL386"]{top:1ex;}#APL386:checked~*:not(label){font-family: 'APL386'!important;}
+#APL385{top:5ex;}label[for="APL385"]{top:3ex;}#APL385:checked~*:not(label){font-family: 'APL385'!important;}
+label{
+  left:2em;
+  background: rgba(255,255,255,0.7);
+}
+h1{
+  padding-top:1ex; 
+}
+h1>span {
+  float: right;
+}
+h1>span>a {
+  text-decoration: none;
+  color: #ea4aaa;
+}
+body {
+  font-size: 125%;
+  line-height: 1.2;
+}
+blockquote {
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  font-size: 125%;
+}
+sup {
+  font-size: 50%;
+}
+textarea {
+  width: 100%;
+  resize: vertical;
+  min-height: 4em;
+  font-size: inherit;
+  font-family: inherit;
+}
+    
