@@ -22,7 +22,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1366486900
-ModificationTime: 1704806995
+ModificationTime: 1704807209
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -484,7 +484,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 10132 17 8
+WinInfo: 9503 17 8
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 629145 314572 209715 498074 1048576 209715 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -28937,49 +28937,20 @@ StartChar: ldDblHor
 Encoding: 9552 9552 407
 Width: 600
 GlyphClass: 2
-Flags: MW
-TtInstrs:
-SVTCA[y-axis]
-PUSHB_1
- 8
-MDAP[rnd]
-PUSHB_2
- 5
- 4
-MIRP[min,black]
-PUSHB_1
- 3
-MDAP[rnd]
-PUSHB_2
- 0
- 4
-MIRP[min,black]
-SVTCA[x-axis]
-PUSHB_1
- 9
-MDAP[rnd]
-PUSHB_2
- 10
- 1
-CALL
-SVTCA[y-axis]
-IUP[y]
-IUP[x]
-EndTTInstrs
+Flags: MWO
 LayerCount: 2
 Fore
 SplineSet
-0 453 m 1,0,-1
- 599 453 l 1,1,-1
- 599 366 l 1,2,-1
- 0 366 l 1,3,-1
- 0 437 l 1,4,-1
- 0 453 l 1,0,-1
-0 279 m 1,5,-1
- 599 279 l 1,6,-1
- 599 192 l 1,7,-1
- 0 192 l 1,8,-1
- 0 279 l 1,5,-1
+0 279 m 5,0,-1
+ 0 192 l 5,1,-1
+ 599 192 l 5,2,-1
+ 599 279 l 5,3,-1
+ 0 279 l 5,0,-1
+0 453 m 1,4,-1
+ 0 366 l 1,5,-1
+ 599 366 l 1,6,-1
+ 599 453 l 1,7,-1
+ 0 453 l 1,4,-1
 EndSplineSet
 EndChar
 
@@ -50846,11 +50817,11 @@ SplineSet
  328 453 l 1,6,-1
  328 910 l 1,7,-1
  242 910 l 1,0,-1
-0 279 m 1,8,-1
- 0 192 l 1,9,-1
- 599 192 l 1,10,-1
- 599 279 l 1,11,-1
- 0 279 l 1,8,-1
+0 279 m 5,8,-1
+ 0 192 l 5,9,-1
+ 599 192 l 5,10,-1
+ 599 279 l 5,11,-1
+ 0 279 l 5,8,-1
 EndSplineSet
 EndChar
 
@@ -62580,7 +62551,7 @@ EndChar
 StartChar: modify
 Encoding: 8617 8617 897
 Width: 600
-Flags: WO
+Flags: W
 HStem: 275 79<246 492.29> 448 79<421.192 492.693>
 VStem: 497 79<357.327 444.148>
 TtInstrs:
@@ -79628,7 +79599,7 @@ EndChar
 StartChar: uni27A5
 Encoding: 10149 10149 1096
 Width: 600
-Flags: WO
+Flags: W
 HStem: 136 237<105.71 352> 655 237<105.307 176.808>
 VStem: 22 79<382.981 643.444>
 LayerCount: 2
@@ -79663,7 +79634,7 @@ SplineSet
 EndSplineSet
 EndChar
 EndChars
-BitmapFont: 13 1097 10 3 1
+BitmapFont: 13 1098 10 3 1
 BDFChar: 0 65536 8 2 5 2 5
 nF5r:
 BDFChar: 4 183 8 4 4 4 4
@@ -80438,8 +80409,8 @@ BDFChar: 405 9574 8 0 7 -4 5
 rrDd-'GM5q'GLNI
 BDFChar: 406 9568 8 3 7 -4 11
 TV.sNTV/fF\=fLfTV.sN
-BDFChar: 407 9552 8 0 0 0 0
-z
+BDFChar: 407 9552 8 0 7 -4 5
+rrE')#RC\A#RCD1
 BDFChar: 408 9580 8 0 7 -4 11
 'GM5q'GU9ApCn;U'GM5q
 BDFChar: 409 8359 8 1 6 0 8
@@ -81473,7 +81444,7 @@ p]L^&p](9o
 BDFChar: 1096 10149 8 0 6 2 6
 ^l\I$&-)\1
 EndBitmapFont
-BitmapFont: 12 1097 10 2 1
+BitmapFont: 12 1098 10 2 1
 BDFChar: 0 65536 7 2 5 2 5
 nF5r:
 BDFChar: 4 183 7 3 3 4 4
@@ -82248,8 +82219,8 @@ BDFChar: 405 9574 7 0 6 -3 5
 rW)@7-n$Jl-ia5I
 BDFChar: 406 9568 7 2 6 -3 10
 TV.sNTX]N^TV.sNTV)8b
-BDFChar: 407 9552 7 0 0 0 0
-z
+BDFChar: 407 9552 7 0 6 -3 5
+rW)p/&.fBa&-)\1
 BDFChar: 408 9580 7 0 6 -3 10
 -n$Jl...*'-n$Jl-n#&q
 BDFChar: 409 8359 7 0 5 0 7
@@ -83259,7 +83230,7 @@ p]L^&p](9o
 BDFChar: 1096 10149 7 0 6 2 5
 d"m,^
 EndBitmapFont
-BitmapFont: 15 1097 12 3 1
+BitmapFont: 15 1098 12 3 1
 BDFChar: 0 65536 9 2 6 3 6
 q"XXZ
 BDFChar: 4 183 9 4 4 4 4
@@ -84034,8 +84005,8 @@ BDFChar: 405 9574 9 0 8 -4 5
 s*t(LpOEqX'EAgI'EAgI'EAgI
 BDFChar: 406 9568 9 3 8 -4 13
 TV.sNTV.sN]R[YfTV.sNTV)8b
-BDFChar: 407 9552 9 0 0 0 0
-z
+BDFChar: 407 9552 9 0 8 -4 5
+s*t(Ls*t@T#QP,1#QP,1#QP,1
 BDFChar: 408 9580 9 0 8 -4 13
 'EAgI'EAgI'EAgI'EAgIpOE5DpOEqX'EAgI'EAgI'EAgI
 BDFChar: 409 8359 9 1 6 0 9
@@ -85045,7 +85016,7 @@ p]L^&p](9o
 BDFChar: 1096 10149 9 0 8 2 7
 ?i\7J`W1L="98i1
 EndBitmapFont
-BitmapFont: 16 1097 13 3 1
+BitmapFont: 16 1098 13 3 1
 BDFChar: 0 65536 10 2 6 3 7
 q"XXZp](9o
 BDFChar: 4 183 10 5 5 4 4
@@ -85820,8 +85791,8 @@ BDFChar: 405 9574 10 0 9 -4 6
 s1eU7qnNO=$31D5$31D5$31D5$31&+
 BDFChar: 406 9568 10 4 9 -4 14
 TV.sNTV.sN]R[YfTV.sNTV.qX
-BDFChar: 407 9552 10 0 0 0 0
-z
+BDFChar: 407 9552 10 0 9 -4 6
+s1eU7s1ea;"98Q)"98Q)"98Q)"98E%
 BDFChar: 408 9580 10 0 9 -4 14
 $31D5$31D5$31D5$31D5qnN13qnNO=$31D5$31D5$31D5$31&+
 BDFChar: 409 8359 10 2 7 0 9
