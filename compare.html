@@ -3,8 +3,8 @@
     <meta charset="utf-8" /> 
     <title>APL386 Comparison</title>
     <style>
-@font-face {font-family: 'APL386n';src: url('APL386.otf');}
-@font-face {font-family: 'APL386';src: url('APL386.ttf');}
+@font-face {font-family: 'APL386';src: url('APL386.otf');}
+@font-face {font-family: 'APL385';src: url('APL385.ttf');}
 * {
   font-weight: unset;
 }
@@ -32,13 +32,13 @@ textarea {
 }
 table{font-size:inherit}
 div{width:49vw;overflow:hidden;display:inline-block;top:0;vertical-align:top}
-div:first-child{font-family:APL386!important}
-div:last-child{font-family:APL386n!important}
+div:first-child{font-family:APL385!important}
+div:last-child{font-family:APL386!important}
 </style>
   </head>
   <body>
-<div><h2>APL386.ttf</h2>
-<textarea autofocus placeholder="Try it yourself ― type here!" spellcheck="false"></textarea>
+<div><h2>APL385 Unicode</h2>
+<textarea id="ta385" placeholder="Try it yourself ― type here!" spellcheck="false" oninput"ta386.value=this.value"></textarea>
 <table>
 <tbody><tr><th>Class</th>
 <th>Glyphs
@@ -209,8 +209,8 @@ tuvwxyz{|}~
 ♢♣♤♥♦♧⚇➥⟃⟄⟜⟦
 ⟧⟨⟩⥊⥌⦃⦄⦅⦆⧵⫽⬫
 �𝔽𝔾𝕊𝕎𝕏𝕗𝕘𝕣𝕤𝕨𝕩</pre>
-</div><div><h2>APL386.otf</h2>
-<textarea autofocus placeholder="Try it yourself ― type here!" spellcheck="false"></textarea>
+</div><div><h2>new APL386 Unicode</h2>
+<textarea id="ta386" autofocus placeholder="Try it yourself ― type here!" spellcheck="false" oninput="ta385.value=this.value"></textarea>
 <table>
 <tbody><tr><th>Class</th>
 <th>Glyphs
